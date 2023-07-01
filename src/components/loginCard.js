@@ -3,7 +3,7 @@ import React, {Component} from "react";
 export default class Login extends Component {
   render() {
     return(
-        <div className="Login d-flex justify-content-center align-items-center">
+        <div className="centerScreen">
         <div className="card">
           <div className="card-body">
                 <h1 className="logintext">Log In</h1>
@@ -14,7 +14,7 @@ export default class Login extends Component {
             </form>
           </div>
         </div>
-      </div>
+        </div>
     );
   }
 }
